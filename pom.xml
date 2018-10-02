@@ -34,4 +34,11 @@
             </plugin>
         </plugins>
     </build>
+     <distributionManagement>
+		<repository>
+			<id> MavenRepo</id>
+			<name> MavenRepo</name>
+			<url>http://13.126.71.23:8081/artifactory/MavenRepo/</url>
+		</repository>
+	</distributionManagement>     
 </project>
